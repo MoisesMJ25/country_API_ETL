@@ -37,8 +37,13 @@ class lead:
     
     def create_table(self, data, table_name:str):
         if self.db_engine is None:
-            print(f'Make the connection first!')
-            self.conn()
+            
+            print(f'Trying the connection first! ------------> conn: {self.db_engine}')
+            try:
+                self.conn()
+
+            except Exception as e:
+                logging.error(f"Failed connection: {e}")
         
         try:
             metadata = MetaData(schema=self.schema)
@@ -73,7 +78,7 @@ class lead:
             Table(table_name, metadata, *columns)
 
             data.to_sql(table_name, self.db_engine, index=False, if_exists='append', schema=self.schema)
-            print(table_name, 'data...............OK')
+            print(table_name, 'data.........................................OK')
 
             return 1
         except Exception as e:
