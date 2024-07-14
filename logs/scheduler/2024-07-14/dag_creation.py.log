@@ -1,0 +1,249 @@
+[2024-07-14T22:21:41.231+0000] {processor.py:161} INFO - Started process (PID=31) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:21:41.232+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:21:41.234+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:21:41.233+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:21:41.359+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:21:42.364+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:21:42.363+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:dag_ETL_Country_API
+[2024-07-14T22:21:42.399+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:21:42.399+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:dag_ETL_Country_API
+[2024-07-14T22:21:42.414+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:21:42.414+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:dag_ETL_Country_API
+[2024-07-14T22:21:42.415+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:21:42.415+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:21:42.457+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:21:42.457+0000] {dag.py:3118} INFO - Creating ORM DAG for dag_ETL_Country_API
+[2024-07-14T22:21:42.507+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:21:42.506+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:21:42.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 1.380 seconds
+[2024-07-14T22:22:12.904+0000] {processor.py:161} INFO - Started process (PID=90) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:22:12.905+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:22:12.906+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:22:12.906+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:22:12.925+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:22:12.946+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:22:12.946+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:22:12.975+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:22:12.974+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:22:12.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.103 seconds
+[2024-07-14T22:22:43.241+0000] {processor.py:161} INFO - Started process (PID=149) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:22:43.246+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:22:43.252+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:22:43.251+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:22:43.298+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:22:43.340+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:22:43.340+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:22:43.376+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:22:43.376+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:22:43.420+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.192 seconds
+[2024-07-14T22:23:13.687+0000] {processor.py:161} INFO - Started process (PID=208) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:23:13.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:23:13.690+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:23:13.690+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:23:13.729+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:23:13.800+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:23:13.800+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:23:13.875+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:23:13.875+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:23:13.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.243 seconds
+[2024-07-14T22:23:44.145+0000] {processor.py:161} INFO - Started process (PID=267) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:23:44.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:23:44.149+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:23:44.148+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:23:44.161+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:23:44.181+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:23:44.181+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:23:44.207+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:23:44.207+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:23:44.227+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.088 seconds
+[2024-07-14T22:24:14.461+0000] {processor.py:161} INFO - Started process (PID=326) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:24:14.464+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:24:14.467+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:24:14.467+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:24:14.490+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:24:14.543+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:24:14.542+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:24:14.604+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:24:14.604+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:24:14.628+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.182 seconds
+[2024-07-14T22:24:44.979+0000] {processor.py:161} INFO - Started process (PID=384) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:24:44.980+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:24:44.982+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:24:44.982+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:24:44.998+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:24:45.019+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:24:45.018+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:24:45.044+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:24:45.044+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:24:45.066+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.093 seconds
+[2024-07-14T22:25:15.654+0000] {processor.py:161} INFO - Started process (PID=442) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:25:15.655+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:25:15.657+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:25:15.657+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:25:15.670+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:25:15.691+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:25:15.691+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:25:15.716+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:25:15.716+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:25:15.737+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.089 seconds
+[2024-07-14T22:25:46.197+0000] {processor.py:161} INFO - Started process (PID=501) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:25:46.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:25:46.200+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:25:46.199+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:25:46.212+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:25:46.233+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:25:46.233+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:25:46.260+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:25:46.260+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:25:46.280+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.088 seconds
+[2024-07-14T22:26:16.427+0000] {processor.py:161} INFO - Started process (PID=560) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:26:16.428+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:26:16.430+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:26:16.430+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:26:16.455+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:26:16.475+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:26:16.475+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:26:16.501+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:26:16.500+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:26:16.521+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.100 seconds
+[2024-07-14T22:26:46.638+0000] {processor.py:161} INFO - Started process (PID=619) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:26:46.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:26:46.641+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:26:46.640+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:26:46.655+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:26:46.674+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:26:46.674+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:26:46.702+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:26:46.702+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:26:46.729+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.097 seconds
+[2024-07-14T22:27:17.086+0000] {processor.py:161} INFO - Started process (PID=678) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:27:17.087+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:27:17.089+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:27:17.089+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:27:17.103+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:27:17.124+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:27:17.123+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:27:17.150+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:27:17.150+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:27:17.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.093 seconds
+[2024-07-14T22:27:47.542+0000] {processor.py:161} INFO - Started process (PID=737) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:27:47.543+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:27:47.545+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:27:47.544+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:27:47.570+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:27:47.614+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:27:47.614+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:27:47.656+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:27:47.656+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:27:47.692+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.164 seconds
+[2024-07-14T22:28:18.089+0000] {processor.py:161} INFO - Started process (PID=798) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:28:18.098+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:28:18.100+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:28:18.100+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:28:18.147+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:28:18.227+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:28:18.227+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:28:18.321+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:28:18.320+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:28:18.376+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.299 seconds
+[2024-07-14T22:28:48.517+0000] {processor.py:161} INFO - Started process (PID=857) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:28:48.526+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:28:48.528+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:28:48.528+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:28:48.553+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:28:48.596+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:28:48.595+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:28:48.632+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:28:48.632+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:28:48.668+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.157 seconds
+[2024-07-14T22:29:18.921+0000] {processor.py:161} INFO - Started process (PID=915) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:29:18.922+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:29:18.923+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:29:18.923+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:29:18.936+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:29:18.957+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:29:18.957+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:29:18.984+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:29:18.984+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:29:19.018+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.104 seconds
+[2024-07-14T22:29:49.306+0000] {processor.py:161} INFO - Started process (PID=974) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:29:49.308+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:29:49.309+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:29:49.309+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:29:49.322+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:29:49.343+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:29:49.342+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:29:49.384+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:29:49.384+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:29:49.413+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.112 seconds
+[2024-07-14T22:30:19.860+0000] {processor.py:161} INFO - Started process (PID=1034) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:30:19.862+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:30:19.864+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:30:19.864+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:30:19.890+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:30:19.929+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:30:19.929+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:30:19.957+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:30:19.957+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:30:19.981+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.132 seconds
+[2024-07-14T22:30:50.257+0000] {processor.py:161} INFO - Started process (PID=1093) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:30:50.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:30:50.260+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:30:50.260+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:30:50.273+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:30:50.295+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:30:50.294+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:30:50.323+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:30:50.323+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:30:50.358+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.107 seconds
+[2024-07-14T22:31:20.711+0000] {processor.py:161} INFO - Started process (PID=1152) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:31:20.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:31:20.714+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:31:20.713+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:31:20.727+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:31:20.748+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:31:20.748+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:31:20.775+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:31:20.775+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:31:20.800+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.096 seconds
+[2024-07-14T22:31:51.261+0000] {processor.py:161} INFO - Started process (PID=1211) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:31:51.262+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:31:51.264+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:31:51.263+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:31:51.277+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:31:51.299+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:31:51.299+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:31:51.324+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:31:51.324+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:31:51.348+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.093 seconds
+[2024-07-14T22:32:21.485+0000] {processor.py:161} INFO - Started process (PID=1270) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:32:21.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:32:21.487+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:32:21.487+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:32:21.500+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:32:21.521+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:32:21.521+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:32:21.548+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:32:21.548+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:32:21.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.092 seconds
+[2024-07-14T22:32:51.642+0000] {processor.py:161} INFO - Started process (PID=1327) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:32:51.643+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:32:51.645+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:32:51.645+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:32:51.668+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:32:51.721+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:32:51.721+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:32:51.754+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:32:51.754+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:32:51.797+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.174 seconds
+[2024-07-14T22:33:22.100+0000] {processor.py:161} INFO - Started process (PID=1386) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:33:22.102+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:33:22.105+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:33:22.105+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:33:22.137+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:33:22.187+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:33:22.187+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:33:22.261+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:33:22.261+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:33:22.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.252 seconds
+[2024-07-14T22:33:52.519+0000] {processor.py:161} INFO - Started process (PID=1445) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:33:52.520+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:33:52.521+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:33:52.521+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:33:52.534+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:33:52.555+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:33:52.555+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:33:52.581+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:33:52.581+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:33:52.604+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.091 seconds
+[2024-07-14T22:34:22.825+0000] {processor.py:161} INFO - Started process (PID=1504) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:34:22.828+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:34:22.831+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:34:22.830+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:34:22.847+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:34:22.866+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:34:22.865+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:34:22.892+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:34:22.891+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:34:22.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.097 seconds
+[2024-07-14T22:34:53.632+0000] {processor.py:161} INFO - Started process (PID=1563) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:34:53.633+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:34:53.635+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:34:53.634+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:34:53.649+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:34:53.691+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:34:53.690+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:34:53.718+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:34:53.718+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:34:53.747+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.121 seconds
+[2024-07-14T22:35:23.836+0000] {processor.py:161} INFO - Started process (PID=1622) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:35:23.837+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:35:23.839+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:35:23.839+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:35:23.859+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:35:23.879+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:35:23.879+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:35:23.904+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:35:23.904+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:35:23.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.096 seconds
+[2024-07-14T22:35:54.321+0000] {processor.py:161} INFO - Started process (PID=1681) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:35:54.322+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:35:54.324+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:35:54.324+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:35:54.337+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:35:54.383+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:35:54.382+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:35:54.411+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:35:54.410+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:35:54.431+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.116 seconds
+[2024-07-14T22:36:24.570+0000] {processor.py:161} INFO - Started process (PID=1741) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:36:24.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:36:24.572+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:36:24.572+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:36:24.585+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:36:24.606+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:36:24.606+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:36:24.632+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:36:24.632+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:36:24.654+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.090 seconds
+[2024-07-14T22:36:55.186+0000] {processor.py:161} INFO - Started process (PID=1800) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:36:55.187+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:36:55.189+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:36:55.189+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:36:55.202+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:36:55.222+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:36:55.222+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:36:55.400+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:36:55.400+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:36:55.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.241 seconds
+[2024-07-14T22:37:25.789+0000] {processor.py:161} INFO - Started process (PID=1859) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:37:25.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:37:25.793+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:37:25.793+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:37:25.807+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:37:25.827+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:37:25.826+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:37:25.855+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:37:25.855+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:37:25.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.094 seconds
+[2024-07-14T22:37:56.119+0000] {processor.py:161} INFO - Started process (PID=1918) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:37:56.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:37:56.124+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:37:56.124+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:37:56.149+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:37:56.190+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:37:56.189+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:37:56.253+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:37:56.253+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:37:56.286+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.186 seconds
+[2024-07-14T22:38:26.501+0000] {processor.py:161} INFO - Started process (PID=1977) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:38:26.513+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:38:26.515+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:38:26.515+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:38:26.536+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:38:26.594+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:38:26.594+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:38:26.644+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:38:26.643+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:38:26.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.194 seconds
+[2024-07-14T22:38:56.841+0000] {processor.py:161} INFO - Started process (PID=2036) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:38:56.842+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-14T22:38:56.845+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:38:56.844+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:38:56.861+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-14T22:38:56.889+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:38:56.889+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T22:38:56.942+0000] {logging_mixin.py:188} INFO - [2024-07-14T22:38:56.942+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-13 00:00:00+00:00, run_after=2024-07-14 00:00:00+00:00
+[2024-07-14T22:38:56.964+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.129 seconds
