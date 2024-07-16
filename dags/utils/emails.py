@@ -4,79 +4,69 @@ from email.mime.multipart import MIMEMultipart
 from airflow.models import Variable
 
 
-def email_success(**context):
+def email_success(context):
     subject = context["var"]["value"].get("subject_mail")
     from_address = context["var"]["value"].get("email")
     password = context["var"]["value"].get("email_password")
     to_address = context["var"]["value"].get("to_address")
 
-    # Create a MIMEText object
     msg = MIMEMultipart()
     msg['From'] = from_address
     msg['To'] = to_address
     msg['Subject'] = subject
-    msg.attach('ETL successfully completed')
+    msg.attach(MIMEText('ETL successfully completed'))
 
     print(
     f"""
     subject:    {subject}
-    from_address:   {from_address}
-    password:   {password}
-    to_address: {to_address}
+    from:    {from_address}
+    to:    {to_address}
     """
     )
 
     try:
-        # Create an SMTP session
-        server = smtplib.SMTP('smtp.mailersend.net', 587)  # Use your SMTP server and port
+        server = smtplib.SMTP('smtp.mailersend.net', 587)
         server.starttls()  # Enable security
-
-        # Login to the server
         server.login(from_address, password)
 
-        # Send the email
         text = msg.as_string()
         server.sendmail(from_address, to_address, text)
         server.quit()
         print("Email sent successfully")
+
     except Exception as e:
         print(f"Failed to send email: {str(e)}")
 
-def email_failed(**context):
+
+def email_failed(context):
     subject = context["var"]["value"].get("subject_mail")
     from_address = context["var"]["value"].get("email")
     password = context["var"]["value"].get("email_password")
     to_address = context["var"]["value"].get("to_address")
 
-    # Create a MIMEText object
     msg = MIMEMultipart()
     msg['From'] = from_address
     msg['To'] = to_address
     msg['Subject'] = subject
-    msg.attach('ETL error')
+    msg.attach(MIMEText('ETL error'))
 
     print(
     f"""
     subject:    {subject}
-    from_address:   {from_address}
-    password:   {password}
-    to_address: {to_address}
+    from:    {from_address}
+    to:    {to_address}
     """
     )
 
     try:
-        # Create an SMTP session
-        server = smtplib.SMTP('smtp.mailersend.net', 587)  # Use your SMTP server and port
+        server = smtplib.SMTP('smtp.mailersend.net', 587)
         server.starttls()  # Enable security
-
-        # Login to the server
         server.login(from_address, password)
 
-        # Send the email
         text = msg.as_string()
         server.sendmail(from_address, to_address, text)
         server.quit()
-        print("Email sent successfully")
+        print("_________________Email sent successfully")
+
     except Exception as e:
         print(f"Failed to send email: {str(e)}")
-        

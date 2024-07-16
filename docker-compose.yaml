@@ -55,7 +55,7 @@ x-airflow-common:
     &airflow-common-env
     # new____
     AIRFLOW_VAR_SUBJECT_MAIL: 'Message from Country_API'
-    AIRFLOW_VAR_EMAIL: 'trial-3zxk54v078qgjy6v.mlsender.net'
+    AIRFLOW_VAR_EMAIL: 'MS_iTvBYX@trial-3zxk54v078qgjy6v.mlsender.net'
     AIRFLOW_VAR_EMAIL_PASSWORD: "${EMAIL_PASSWORD}"
     AIRFLOW_VAR_TO_ADDRESS: 'moisesmarquinaj@gmail.com' 
     #________

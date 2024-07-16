@@ -1,0 +1,39 @@
+[2024-07-16T20:00:21.445+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-16T20:00:21.486+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_ETL_Country_API.ETL_API manual__2024-07-16T20:00:18.256749+00:00 [queued]>
+[2024-07-16T20:00:21.495+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_ETL_Country_API.ETL_API manual__2024-07-16T20:00:18.256749+00:00 [queued]>
+[2024-07-16T20:00:21.495+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2024-07-16T20:00:21.528+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): ETL_API> on 2024-07-16 20:00:18.256749+00:00
+[2024-07-16T20:00:21.544+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=384) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-07-16T20:00:21.546+0000] {standard_task_runner.py:63} INFO - Started process 393 to run task
+[2024-07-16T20:00:21.546+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'dag_ETL_Country_API', 'ETL_API', 'manual__2024-07-16T20:00:18.256749+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/dag_creation.py', '--cfg-path', '/tmp/tmpzcv_qzb4']
+[2024-07-16T20:00:21.550+0000] {standard_task_runner.py:91} INFO - Job 9: Subtask ETL_API
+[2024-07-16T20:00:21.637+0000] {task_command.py:426} INFO - Running <TaskInstance: dag_ETL_Country_API.ETL_API manual__2024-07-16T20:00:18.256749+00:00 [running]> on host 229f88dcdc51
+[2024-07-16T20:00:21.934+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Moisés' AIRFLOW_CTX_DAG_ID='dag_ETL_Country_API' AIRFLOW_CTX_TASK_ID='ETL_API' AIRFLOW_CTX_EXECUTION_DATE='2024-07-16T20:00:18.256749+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-16T20:00:18.256749+00:00'
+[2024-07-16T20:00:21.940+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-16T20:00:21.944+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-07-16T20:00:21.947+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python ${AIRFLOW_HOME}/dags/utils/__main__.py']
+[2024-07-16T20:00:22.000+0000] {subprocess.py:86} INFO - Output:
+[2024-07-16T20:00:27.536+0000] {subprocess.py:93} INFO -               country_names capitals_names  ... phone_codes currency_codes
+[2024-07-16T20:00:27.536+0000] {subprocess.py:93} INFO - 0                Bangladesh          Dhaka  ...         880            BDT
+[2024-07-16T20:00:27.536+0000] {subprocess.py:93} INFO - 1                   Belgium       Brussels  ...          32            EUR
+[2024-07-16T20:00:27.537+0000] {subprocess.py:93} INFO - 2              Burkina Faso    Ouagadougou  ...         226            XOF
+[2024-07-16T20:00:27.537+0000] {subprocess.py:93} INFO - 3                  Bulgaria          Sofia  ...         359            BGN
+[2024-07-16T20:00:27.537+0000] {subprocess.py:93} INFO - 4    Bosnia and Herzegovina       Sarajevo  ...         387            BAM
+[2024-07-16T20:00:27.537+0000] {subprocess.py:93} INFO - ..                      ...            ...  ...         ...            ...
+[2024-07-16T20:00:27.537+0000] {subprocess.py:93} INFO - 245                 Ireland         Dublin  ...         353            EUR
+[2024-07-16T20:00:27.538+0000] {subprocess.py:93} INFO - 246               Indonesia        Jakarta  ...          62            IDR
+[2024-07-16T20:00:27.538+0000] {subprocess.py:93} INFO - 247                 Ukraine           Kiev  ...         380            UAH
+[2024-07-16T20:00:27.538+0000] {subprocess.py:93} INFO - 248                   Qatar           Doha  ...         974            QAR
+[2024-07-16T20:00:27.538+0000] {subprocess.py:93} INFO - 249              Mozambique         Maputo  ...         258            MZN
+[2024-07-16T20:00:27.538+0000] {subprocess.py:93} INFO - 
+[2024-07-16T20:00:27.538+0000] {subprocess.py:93} INFO - [250 rows x 6 columns]
+[2024-07-16T20:00:27.539+0000] {subprocess.py:93} INFO - Trying the connection first! ------------> conn: None
+[2024-07-16T20:00:27.539+0000] {subprocess.py:93} INFO - Failed to upload table api_countries: No inspection system is available for object of type <class 'NoneType'>
+[2024-07-16T20:00:28.020+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-07-16T20:00:28.022+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-16T20:00:28.073+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=dag_ETL_Country_API, task_id=ETL_API, run_id=manual__2024-07-16T20:00:18.256749+00:00, execution_date=20240716T200018, start_date=20240716T200021, end_date=20240716T200028
+[2024-07-16T20:00:28.155+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-07-16T20:00:28.181+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-07-16T20:00:28.201+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
