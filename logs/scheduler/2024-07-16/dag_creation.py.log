@@ -1,0 +1,962 @@
+[2024-07-16T19:02:17.879+0000] {processor.py:161} INFO - Started process (PID=31) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:02:17.893+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:02:17.895+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:02:17.895+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:02:17.899+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:02:17.897+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 20
+    catchup=False
+            ^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-07-16T19:02:17.905+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:02:17.965+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.129 seconds
+[2024-07-16T19:02:48.080+0000] {processor.py:161} INFO - Started process (PID=90) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:02:48.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:02:48.083+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:02:48.083+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:02:48.088+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:02:48.086+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 20
+    catchup=False
+            ^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-07-16T19:02:48.089+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:02:48.119+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.047 seconds
+[2024-07-16T19:03:18.286+0000] {processor.py:161} INFO - Started process (PID=149) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:03:18.290+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:03:18.292+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:03:18.291+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:03:18.306+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:03:18.302+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 20
+    catchup=False
+            ^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-07-16T19:03:18.307+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:03:18.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.105 seconds
+[2024-07-16T19:03:48.806+0000] {processor.py:161} INFO - Started process (PID=208) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:03:48.807+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:03:48.808+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:03:48.808+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:03:48.811+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:03:48.810+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 20
+    catchup=False
+            ^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-07-16T19:03:48.811+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:03:48.834+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.032 seconds
+[2024-07-16T19:04:02.498+0000] {processor.py:161} INFO - Started process (PID=239) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:04:02.499+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:04:02.501+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:04:02.500+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:04:02.506+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:04:02.505+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:04:02.507+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:04:02.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.048 seconds
+[2024-07-16T19:04:32.902+0000] {processor.py:161} INFO - Started process (PID=297) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:04:32.903+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:04:32.905+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:04:32.905+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:04:32.909+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:04:32.908+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:04:32.910+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:04:32.936+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.039 seconds
+[2024-07-16T19:04:40.471+0000] {processor.py:161} INFO - Started process (PID=319) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:04:40.472+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:04:40.474+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:04:40.473+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:04:40.476+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:04:40.475+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4
+    from utils. import email_success, email_failed
+                ^^^^^^
+SyntaxError: invalid syntax
+[2024-07-16T19:04:40.477+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:04:40.498+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.032 seconds
+[2024-07-16T19:04:43.693+0000] {processor.py:161} INFO - Started process (PID=325) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:04:43.694+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:04:43.695+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:04:43.695+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:04:43.699+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:04:43.698+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils.email import email_success, email_failed
+ModuleNotFoundError: No module named 'utils.email'
+[2024-07-16T19:04:43.700+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:04:43.738+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.049 seconds
+[2024-07-16T19:04:46.751+0000] {processor.py:161} INFO - Started process (PID=326) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:04:46.752+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:04:46.754+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:04:46.754+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:04:46.771+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:04:46.928+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:04:46.928+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:dag_ETL_Country_API
+[2024-07-16T19:04:46.954+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:04:46.953+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:dag_ETL_Country_API
+[2024-07-16T19:04:46.967+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:04:46.967+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:dag_ETL_Country_API
+[2024-07-16T19:04:46.968+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:04:46.967+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T19:04:47.022+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:04:47.021+0000] {dag.py:3118} INFO - Creating ORM DAG for dag_ETL_Country_API
+[2024-07-16T19:04:47.036+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:04:47.036+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-16T19:04:47.066+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.323 seconds
+[2024-07-16T19:04:55.885+0000] {processor.py:161} INFO - Started process (PID=337) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:04:55.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:04:55.888+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:04:55.887+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:04:55.892+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:04:55.891+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from emails import email_success, email_failed
+ModuleNotFoundError: No module named 'emails'
+[2024-07-16T19:04:55.893+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:04:55.921+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.043 seconds
+[2024-07-16T19:05:23.775+0000] {processor.py:161} INFO - Started process (PID=391) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:05:23.776+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:05:23.778+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:05:23.778+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:05:23.783+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:05:23.781+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:05:23.784+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:05:23.825+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.057 seconds
+[2024-07-16T19:05:25.004+0000] {processor.py:161} INFO - Started process (PID=395) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:05:25.005+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:05:25.008+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:05:25.008+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:05:25.014+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:05:25.012+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:05:25.015+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:05:25.042+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.044 seconds
+[2024-07-16T19:05:55.127+0000] {processor.py:161} INFO - Started process (PID=455) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:05:55.127+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:05:55.129+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:05:55.129+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:05:55.132+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:05:55.131+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:05:55.132+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:05:55.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.038 seconds
+[2024-07-16T19:06:25.723+0000] {processor.py:161} INFO - Started process (PID=515) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:06:25.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:06:25.724+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:06:25.724+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:06:25.727+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:06:25.726+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:06:25.728+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:06:25.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.032 seconds
+[2024-07-16T19:06:56.417+0000] {processor.py:161} INFO - Started process (PID=575) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:06:56.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:06:56.419+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:06:56.418+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:06:56.422+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:06:56.421+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:06:56.422+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:06:56.442+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.030 seconds
+[2024-07-16T19:06:58.562+0000] {processor.py:161} INFO - Started process (PID=584) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:06:58.562+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:06:58.563+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:06:58.563+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:06:58.568+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:06:58.567+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:06:58.569+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:06:58.595+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.040 seconds
+[2024-07-16T19:07:03.021+0000] {processor.py:161} INFO - Started process (PID=591) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:07:03.022+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:07:03.023+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:07:03.022+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:07:03.028+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:07:03.026+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:07:03.029+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:07:03.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.044 seconds
+[2024-07-16T19:07:05.766+0000] {processor.py:161} INFO - Started process (PID=602) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:07:05.767+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:07:05.768+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:07:05.767+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:07:05.773+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:07:05.772+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from emails import email_success, email_failed
+ModuleNotFoundError: No module named 'emails'
+[2024-07-16T19:07:05.773+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:07:05.797+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.038 seconds
+[2024-07-16T19:07:08.355+0000] {processor.py:161} INFO - Started process (PID=611) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:07:08.356+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:07:08.357+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:07:08.356+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:07:08.360+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:07:08.359+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:07:08.361+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:07:08.382+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.032 seconds
+[2024-07-16T19:07:38.449+0000] {processor.py:161} INFO - Started process (PID=669) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:07:38.456+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:07:38.460+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:07:38.459+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:07:38.470+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:07:38.469+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:07:38.479+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:07:38.516+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.078 seconds
+[2024-07-16T19:08:08.971+0000] {processor.py:161} INFO - Started process (PID=725) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:08:08.972+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:08:08.973+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:08:08.973+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:08:08.977+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:08:08.976+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:08:08.978+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:08:09.006+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.040 seconds
+[2024-07-16T19:08:39.178+0000] {processor.py:161} INFO - Started process (PID=783) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:08:39.179+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:08:39.185+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:08:39.183+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:08:39.189+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:08:39.188+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:08:39.190+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:08:39.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.074 seconds
+[2024-07-16T19:08:55.862+0000] {processor.py:161} INFO - Started process (PID=807) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:08:55.869+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:08:55.870+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:08:55.869+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:08:55.875+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:08:55.873+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:08:55.884+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:08:55.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.077 seconds
+[2024-07-16T19:09:14.583+0000] {processor.py:161} INFO - Started process (PID=855) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:09:14.584+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:09:14.585+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:09:14.585+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:09:14.590+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:09:14.589+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:09:14.591+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:09:14.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.040 seconds
+[2024-07-16T19:09:16.724+0000] {processor.py:161} INFO - Started process (PID=858) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:09:16.725+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:09:16.726+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:09:16.726+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:09:16.730+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:09:16.729+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4
+    from utils import import smtplib
+                      ^^^^^^
+SyntaxError: invalid syntax
+[2024-07-16T19:09:16.730+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:09:16.756+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.038 seconds
+[2024-07-16T19:09:17.206+0000] {processor.py:161} INFO - Started process (PID=864) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:09:17.207+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:09:17.208+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:09:17.207+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:09:17.215+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:09:17.214+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:09:17.216+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:09:17.274+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.079 seconds
+[2024-07-16T19:09:22.525+0000] {processor.py:161} INFO - Started process (PID=869) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:09:22.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:09:22.526+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:09:22.526+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:09:22.530+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:09:22.529+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import em
+ImportError: cannot import name 'em' from 'utils' (unknown location)
+[2024-07-16T19:09:22.531+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:09:22.556+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.036 seconds
+[2024-07-16T19:09:26.584+0000] {processor.py:161} INFO - Started process (PID=870) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:09:26.585+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:09:26.586+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:09:26.586+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:09:26.592+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:09:26.591+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_failed, em
+ImportError: cannot import name 'email_failed' from 'utils' (unknown location)
+[2024-07-16T19:09:26.593+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:09:26.620+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.042 seconds
+[2024-07-16T19:09:28.267+0000] {processor.py:161} INFO - Started process (PID=882) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:09:28.268+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:09:28.269+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:09:28.269+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:09:28.274+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:09:28.273+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_failed, email_success
+ImportError: cannot import name 'email_failed' from 'utils' (unknown location)
+[2024-07-16T19:09:28.275+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:09:28.304+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.044 seconds
+[2024-07-16T19:09:59.201+0000] {processor.py:161} INFO - Started process (PID=940) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:09:59.203+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:09:59.204+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:09:59.203+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:09:59.208+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:09:59.206+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_failed, email_success
+ImportError: cannot import name 'email_failed' from 'utils' (unknown location)
+[2024-07-16T19:09:59.209+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:09:59.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.040 seconds
+[2024-07-16T19:10:15.541+0000] {processor.py:161} INFO - Started process (PID=979) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:10:15.542+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:10:15.544+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:10:15.543+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:10:15.553+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:10:15.552+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from .utils import email_failed, email_success
+ImportError: attempted relative import with no known parent package
+[2024-07-16T19:10:15.554+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:10:15.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.051 seconds
+[2024-07-16T19:10:46.333+0000] {processor.py:161} INFO - Started process (PID=1038) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:10:46.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:10:46.334+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:10:46.334+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:10:46.337+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:10:46.336+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from .utils import email_failed, email_success
+ImportError: attempted relative import with no known parent package
+[2024-07-16T19:10:46.338+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:10:46.367+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.040 seconds
+[2024-07-16T19:11:03.661+0000] {processor.py:161} INFO - Started process (PID=1069) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:11:03.662+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:11:03.663+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:11:03.663+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:11:03.666+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:11:03.665+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4
+    fromutils import email_failed, email_success
+              ^^^^^^
+SyntaxError: invalid syntax
+[2024-07-16T19:11:03.667+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:11:03.695+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.040 seconds
+[2024-07-16T19:11:05.773+0000] {processor.py:161} INFO - Started process (PID=1072) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:11:05.774+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:11:05.774+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:11:05.774+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:11:05.779+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:11:05.778+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_failed, email_success
+ImportError: cannot import name 'email_failed' from 'utils' (unknown location)
+[2024-07-16T19:11:05.780+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:11:05.805+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.038 seconds
+[2024-07-16T19:11:35.952+0000] {processor.py:161} INFO - Started process (PID=1131) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:11:35.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:11:35.963+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:11:35.963+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:11:35.969+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:11:35.967+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_failed, email_success
+ImportError: cannot import name 'email_failed' from 'utils' (unknown location)
+[2024-07-16T19:11:35.970+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:11:35.995+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.057 seconds
+[2024-07-16T19:12:06.413+0000] {processor.py:161} INFO - Started process (PID=1190) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:12:06.414+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:12:06.415+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:12:06.415+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:12:06.419+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:12:06.418+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_failed, email_success
+ImportError: cannot import name 'email_failed' from 'utils' (unknown location)
+[2024-07-16T19:12:06.420+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:12:06.446+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.039 seconds
+[2024-07-16T19:12:37.000+0000] {processor.py:161} INFO - Started process (PID=1250) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:12:37.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:12:37.010+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:12:37.009+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:12:37.016+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:12:37.015+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_failed, email_success
+ImportError: cannot import name 'email_failed' from 'utils' (unknown location)
+[2024-07-16T19:12:37.017+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:12:37.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.063 seconds
+[2024-07-16T19:12:54.214+0000] {processor.py:161} INFO - Started process (PID=1289) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:12:54.215+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:12:54.216+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:12:54.216+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:12:54.222+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:12:54.220+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_failed
+ImportError: cannot import name 'email_failed' from 'utils' (unknown location)
+[2024-07-16T19:12:54.223+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:12:54.251+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.044 seconds
+[2024-07-16T19:12:57.235+0000] {processor.py:161} INFO - Started process (PID=1290) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:12:57.236+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:12:57.237+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:12:57.236+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:12:57.239+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:12:57.238+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4
+    from utils import em email_failed
+                         ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2024-07-16T19:12:57.240+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:12:57.262+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.031 seconds
+[2024-07-16T19:13:00.254+0000] {processor.py:161} INFO - Started process (PID=1298) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:13:00.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:13:00.256+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:13:00.256+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:13:00.261+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:13:00.260+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:13:00.262+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:13:00.288+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.040 seconds
+[2024-07-16T19:13:30.348+0000] {processor.py:161} INFO - Started process (PID=1357) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:13:30.350+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:13:30.351+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:13:30.350+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:13:30.354+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:13:30.353+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:13:30.355+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:13:30.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.031 seconds
+[2024-07-16T19:14:00.522+0000] {processor.py:161} INFO - Started process (PID=1416) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:14:00.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:14:00.526+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:14:00.526+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:14:00.534+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:14:00.532+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:14:00.536+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:14:00.589+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.078 seconds
+[2024-07-16T19:14:13.356+0000] {processor.py:161} INFO - Started process (PID=1439) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:14:13.357+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:14:13.358+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:14:13.357+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:14:13.362+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:14:13.361+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from ut import email_success, email_failed
+ModuleNotFoundError: No module named 'ut'
+[2024-07-16T19:14:13.363+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:14:13.402+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.052 seconds
+[2024-07-16T19:14:14.988+0000] {processor.py:161} INFO - Started process (PID=1447) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:14:14.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:14:14.996+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:14:14.996+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:14:15.015+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:14:15.014+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:14:15.019+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:14:15.068+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.104 seconds
+[2024-07-16T19:14:45.508+0000] {processor.py:161} INFO - Started process (PID=1506) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:14:45.509+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:14:45.510+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:14:45.510+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:14:45.514+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:14:45.513+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:14:45.515+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:14:45.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.039 seconds
+[2024-07-16T19:15:15.826+0000] {processor.py:161} INFO - Started process (PID=1565) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:15:15.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:15:15.828+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:15:15.828+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:15:15.832+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:15:15.831+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:15:15.833+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:15:15.862+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.042 seconds
+[2024-07-16T19:19:05.582+0000] {processor.py:161} INFO - Started process (PID=30) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:19:05.583+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:19:05.602+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:19:05.601+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:19:05.612+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:19:05.610+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:19:05.629+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:19:05.709+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.181 seconds
+[2024-07-16T19:19:36.225+0000] {processor.py:161} INFO - Started process (PID=89) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:19:36.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:19:36.228+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:19:36.228+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:19:36.232+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:19:36.230+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:19:36.232+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:19:36.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.033 seconds
+[2024-07-16T19:20:06.576+0000] {processor.py:161} INFO - Started process (PID=149) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:20:06.585+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:20:06.598+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:20:06.597+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:20:06.603+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:20:06.601+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:20:06.604+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:20:06.649+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.080 seconds
+[2024-07-16T19:20:37.203+0000] {processor.py:161} INFO - Started process (PID=208) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:20:37.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:20:37.207+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:20:37.206+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:20:37.219+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:20:37.210+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:20:37.220+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:20:37.247+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.049 seconds
+[2024-07-16T19:21:07.502+0000] {processor.py:161} INFO - Started process (PID=266) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:21:07.502+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:21:07.504+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:21:07.504+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:21:07.507+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:21:07.506+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:21:07.507+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:21:07.528+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.031 seconds
+[2024-07-16T19:21:37.602+0000] {processor.py:161} INFO - Started process (PID=325) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:21:37.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:21:37.604+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:21:37.603+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:21:37.607+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:21:37.606+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:21:37.607+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:21:37.628+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.031 seconds
+[2024-07-16T19:22:07.808+0000] {processor.py:161} INFO - Started process (PID=384) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:07.808+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:22:07.810+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:22:07.810+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:07.813+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:22:07.812+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:22:07.813+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:07.834+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.031 seconds
+[2024-07-16T19:22:12.515+0000] {processor.py:161} INFO - Started process (PID=394) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:12.516+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:22:12.519+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:22:12.518+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:12.523+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:22:12.522+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:22:12.524+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:12.552+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.044 seconds
+[2024-07-16T19:22:40.217+0000] {processor.py:161} INFO - Started process (PID=446) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:40.218+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:22:40.220+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:22:40.219+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:40.223+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:22:40.222+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4
+    from utils. import email_success, email_failed
+                ^^^^^^
+SyntaxError: invalid syntax
+[2024-07-16T19:22:40.224+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:40.259+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.049 seconds
+[2024-07-16T19:22:42.433+0000] {processor.py:161} INFO - Started process (PID=450) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:42.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:22:42.436+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:22:42.436+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:42.458+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:42.776+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:22:42.776+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T19:22:42.804+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:22:42.804+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-16T19:22:42.841+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.415 seconds
+[2024-07-16T19:22:45.059+0000] {processor.py:161} INFO - Started process (PID=456) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:45.066+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:22:45.068+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:22:45.068+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:45.089+0000] {processor.py:840} INFO - DAG(s) 'dag_ETL_Country_API' retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:45.110+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:22:45.110+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T19:22:45.140+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:22:45.140+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_ETL_Country_API to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-16T19:22:45.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.123 seconds
+[2024-07-16T19:22:50.956+0000] {processor.py:161} INFO - Started process (PID=478) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:50.957+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:22:50.959+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:22:50.958+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:50.964+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:22:50.963+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utilsemails import email_success, email_failed
+ModuleNotFoundError: No module named 'utilsemails'
+[2024-07-16T19:22:50.965+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:51.003+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.053 seconds
+[2024-07-16T19:22:53.169+0000] {processor.py:161} INFO - Started process (PID=484) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:53.169+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:22:53.171+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:22:53.170+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:53.174+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:22:53.173+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from dutils import email_success, email_failed
+ModuleNotFoundError: No module named 'dutils'
+[2024-07-16T19:22:53.174+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:53.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.031 seconds
+[2024-07-16T19:22:55.491+0000] {processor.py:161} INFO - Started process (PID=490) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:55.492+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:22:55.494+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:22:55.493+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:55.498+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:22:55.497+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from dags.utils import email_success, email_failed
+ModuleNotFoundError: No module named 'dags'
+[2024-07-16T19:22:55.499+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:22:55.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.055 seconds
+[2024-07-16T19:23:25.874+0000] {processor.py:161} INFO - Started process (PID=549) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:23:25.875+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:23:25.877+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:23:25.877+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:23:25.881+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:23:25.880+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from dags.utils import email_success, email_failed
+ModuleNotFoundError: No module named 'dags'
+[2024-07-16T19:23:25.881+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:23:25.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.044 seconds
+[2024-07-16T19:23:56.152+0000] {processor.py:161} INFO - Started process (PID=608) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:23:56.153+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:23:56.155+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:23:56.154+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:23:56.158+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:23:56.157+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from dags.utils import email_success, email_failed
+ModuleNotFoundError: No module named 'dags'
+[2024-07-16T19:23:56.159+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:23:56.186+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.040 seconds
+[2024-07-16T19:24:26.760+0000] {processor.py:161} INFO - Started process (PID=667) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:24:26.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:24:26.762+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:24:26.762+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:24:26.765+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:24:26.764+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from dags.utils import email_success, email_failed
+ModuleNotFoundError: No module named 'dags'
+[2024-07-16T19:24:26.766+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:24:26.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.036 seconds
+[2024-07-16T19:24:57.712+0000] {processor.py:161} INFO - Started process (PID=726) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:24:57.713+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:24:57.713+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:24:57.713+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:24:57.717+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:24:57.715+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from dags.utils import email_success, email_failed
+ModuleNotFoundError: No module named 'dags'
+[2024-07-16T19:24:57.717+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:24:57.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.049 seconds
+[2024-07-16T19:25:03.832+0000] {processor.py:161} INFO - Started process (PID=743) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:25:03.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:25:03.833+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:25:03.833+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:25:03.836+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:25:03.835+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:25:03.837+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:25:03.859+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.032 seconds
+[2024-07-16T19:25:34.686+0000] {processor.py:161} INFO - Started process (PID=802) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:25:34.687+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:25:34.687+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:25:34.687+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:25:34.690+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:25:34.689+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:25:34.691+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:25:34.713+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.032 seconds
+[2024-07-16T19:26:05.570+0000] {processor.py:161} INFO - Started process (PID=861) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:26:05.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:26:05.572+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:26:05.572+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:26:05.575+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:26:05.574+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:26:05.575+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:26:05.598+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.032 seconds
+[2024-07-16T19:26:35.624+0000] {processor.py:161} INFO - Started process (PID=920) to work on /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:26:35.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_creation.py for tasks to queue
+[2024-07-16T19:26:35.626+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:26:35.626+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:26:35.630+0000] {logging_mixin.py:188} INFO - [2024-07-16T19:26:35.629+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_creation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_creation.py", line 4, in <module>
+    from utils import email_success, email_failed
+ImportError: cannot import name 'email_success' from 'utils' (unknown location)
+[2024-07-16T19:26:35.631+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_creation.py
+[2024-07-16T19:26:35.650+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_creation.py took 0.032 seconds

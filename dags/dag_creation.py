@@ -1,6 +1,7 @@
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.bash import BashOperator
+from utils import email_success, email_failed
 
 
 default_args = {
@@ -16,7 +17,9 @@ with DAG(
     start_date=datetime(2024, 7, 3),
     schedule="@daily",
     doc_md='dag que realiza ETL desde una API de países',
-    catchup=False
+    catchup=False,
+    on_success_callback=email_success,
+    on_failure_callback=email_failed
 ) as dag:
     
     only_task = BashOperator(
